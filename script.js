@@ -1,6 +1,5 @@
-// -------------------------------
+
 // Variáveis globais
-// -------------------------------
 const PRODUCTS = [
   { code: "P001", name: "Pão Brioche", price: 4.50 },
   { code: "P002", name: "Café 250g", price: 24.00 },
@@ -14,9 +13,7 @@ const PRODUCTS = [
 let cart = []; // array do carrinho
 var lastAction = ""; // só pra demonstrar uso do var
 
-// -------------------------------
 // Funções
-// -------------------------------
 
 // Login simples
 function login() {
@@ -134,10 +131,7 @@ function clearCart() {
   renderCart();
   document.getElementById("finalSummary").innerHTML = "";
 }
-
-// -------------------------------
 // Eventos
-// -------------------------------
 document.getElementById("btnLogin").addEventListener("click", login);
 document.getElementById("btnSearch").addEventListener("click", searchProducts);
 document.getElementById("btnShowAll").addEventListener("click", () => renderProducts(PRODUCTS));
