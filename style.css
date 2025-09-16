@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #d863ec;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+#loginSection, main section {
+  background: rgb(225, 201, 235);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.product, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding: 5px 0;
+}
+
+.hint {
+  font-size: 12px;
+  color: #000000;
+}

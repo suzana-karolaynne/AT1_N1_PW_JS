@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <section id="loginSection">
+    <h2>Login</h2>
+    <label for="user">Usuário:</label>
+    <input type="text" id="user" placeholder="Digite o usuário">
+
+    <label for="pass">Senha:</label>
+    <input type="password" id="pass" placeholder="Digite a senha">
+
+    <button id="btnLogin">Entrar</button>
+    <p id="loginMsg"></p>
+    <p class="hint">Usuário: Suzi | Senha: 1234</p>
+  </section>
+
+  <!-- ÁREA PRINCIPAL (só aparece depois do login) -->
+  <main id="mainSection" class="hidden">
+
+    <!-- LISTA DE PRODUTOS -->
+    <section>
+      <h2>Produtos 🍞🧀🍪🍰☕🥛</h2>
+      <input type="text" id="searchInput" placeholder="Buscar produto">
+      <button id="btnSearch">Buscar</button>
+      <button id="btnShowAll">Mostrar todos</button>
+      <div id="productList"></div>
+    </section>
+
+    <!-- CARRINHO -->
+    <section>
+      <h2>Carrinho 🛒</h2>
+      <div id="cartList">(vazio)</div>
+      <button id="btnFinalize">Finalizar Compra</button>
+      <button id="btnClear">Limpar Carrinho</button>
+      <div id="finalSummary"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
