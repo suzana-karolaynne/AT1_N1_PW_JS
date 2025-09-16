@@ -1,4 +1,4 @@
-# Carrinho de Compras - Avaliação N1
+# Carrinho de Compras - Avaliação N1 
 
 Este projeto é um **protótipo de sistema web** simulando o funcionamento de um carrinho de compras online.  
 Foi desenvolvido como parte da disciplina **Programação para Web**.
